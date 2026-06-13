@@ -38,17 +38,17 @@ python wordgen.py --name Jane --preset standard -o out -q
 
 ## What it generates
 
-Given a name like `Aarushna` and a keyword like `Airtel`, the aggressive preset produces patterns like:
+Given a name like `Michael` and a keyword like `dragon`, the aggressive preset produces patterns like:
 
 ```
-@1Aarushna0       ← symbol + number + name + suffix
-Airtel_Aarushna   ← keyword + separator + name
-a@rushna123       ← leet substitution + suffix
-AARUSHNA!         ← caps + symbol
-anhusr44          ← reversed + leet
+@1Michael0        ← symbol + number + name + suffix
+dragon_Michael    ← keyword + separator + name
+m!ch@el123        ← leet substitution + suffix
+MICHAEL!          ← caps + symbol
+leahcim99         ← reversed + suffix
 ```
 
-53,000+ candidates from just two inputs. With full profile data (DOB, phone, pets, partner, etc.), coverage scales accordingly.
+50,000+ candidates from just two inputs. With full profile data (DOB, phone, pets, partner, etc.), coverage scales accordingly.
 
 ---
 
